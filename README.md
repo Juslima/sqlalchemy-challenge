@@ -32,3 +32,6 @@ For the most active station (USC00519281), the lowest, highest, and average temp
 = Average Temperature: 71.66°F
 The temperature observations (tobs) for the last 12 months of the most active station (USC00519281) are plotted as a histogram.
 The code includes concise comments that provide relevant explanations for each step, making it easy for other developers to understand and modify the code.
+
+_____________________________________________________________________________________________________________________________________________
+# Part 2: Design Your Climate App
