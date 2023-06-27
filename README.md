@@ -45,11 +45,11 @@ The code:
    - 'numpy' and 'datetime' for data and date manipulation.
    - sqlalchemy for database operations.
    - 'relativedelta' from 'dateutil.relativedelta' for calculating date ranges.
-   - `Flask` for creating the web application.
+   - 'Flask' for creating the web application.
 
 2. Database Setup:
    - Creating an SQLAlchemy engine to connect to the SQLite database.
-   - Using `automap_base()` to reflect the database tables and create corresponding classes.
+   - Using 'automap_base()' to reflect the database tables and create corresponding classes.
    - Mapping the classes to the tables.
 
 3. Flask Setup:
@@ -81,7 +81,7 @@ The code:
      - Returns the JSON representation of the list.
 
    - `/api/v1.0/<start>/<end>` route:
-     - Calculates the minimum, average, and maximum temperature for the dates between the specified start and end dates, inclusive.
+     - Calculates the minimum, average, and maximum temperature for the dates between the specified start and end dates.
      - Constructs a list of dictionaries containing the temperature statistics.
      - Returns the JSON representation of the list.
 
@@ -90,4 +90,4 @@ The code:
 5. Running the Flask app:
    - If the script is executed directly, it starts the Flask application with debug mode enabled.
 
-To use this Flask application, you need to have the SQLite database file "hawaii.sqlite" located in the "Resources" folder. Then you can run the script, and the application will be available at `http://localhost:5000/` or `http://127.0.0.1:5000/` in your browser. You can access the different routes listed in the root route to retrieve the desired information in JSON format.
+To use this Flask application, I needed to have the SQLite database file "hawaii.sqlite" located in the "Resources" folder. Then we can run the script, and the application will be available at 'http://localhost:5000/' or 'http://127.0.0.1:5000/' in your browser. We will be able to access the different routes listed in the root route to retrieve the desired information in JSON format.
