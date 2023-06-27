@@ -39,12 +39,12 @@ ________________________________________________________________________________
 
 The provided code is a Flask application that creates routes to interact with an SQLite database containing weather data from Hawaii. The application provides several API endpoints to retrieve information about precipitation, stations, and temperature observations.
 
-Here is a breakdown of the code:
+The code:
 
 1. Importing the necessary dependencies:
-   - `numpy` and `datetime` for data and date manipulation.
-   - `sqlalchemy` for database operations.
-   - `relativedelta` from `dateutil.relativedelta` for calculating date ranges.
+   - 'numpy' and 'datetime' for data and date manipulation.
+   - sqlalchemy for database operations.
+   - 'relativedelta' from 'dateutil.relativedelta' for calculating date ranges.
    - `Flask` for creating the web application.
 
 2. Database Setup:
